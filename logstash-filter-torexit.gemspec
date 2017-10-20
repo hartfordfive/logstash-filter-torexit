@@ -2,10 +2,10 @@ Gem::Specification.new do |s|
   s.name          = 'logstash-filter-torexit'
   s.version       = '0.1.0'
   s.licenses      = ['Apache License (2.0)']
-  s.summary       = 'TODO: Write a short summary, because Rubygems requires one.'
-  s.description   = 'TODO: Write a longer description or delete this line.'
-  s.homepage      = 'TODO: Put your plugin''s website or public repo URL here.'
-  s.authors       = ['Al Lefebvre']
+  s.summary       = 'TOR exit node identifier'
+  s.description   = 'This filter plugin allows you to identify events originating from TOR exit nodes.'
+  s.homepage      = 'https://www.github.com/hartfordfive/logstash-filter-torexit'
+  s.authors       = ['Alain Lefebvre']
   s.email         = 'alain.lefebvre@gmail.com'
   s.require_paths = ['lib']
 
